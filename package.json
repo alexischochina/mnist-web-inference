@@ -1,0 +1,23 @@
+{
+  "name": "mnist-web-inference",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "npx webpack",
+    "serve": "npx light‑server -s . -p 8080"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "onnxruntime-web": "^1.22.0"
+  },
+  "devDependencies": {
+    "light-server": "^2.9.1",
+    "webpack": "^5.100.2",
+    "webpack-cli": "^6.0.1"
+  }
+}
